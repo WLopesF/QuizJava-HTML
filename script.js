@@ -1,14 +1,9 @@
-function solicitarDados() {
+function questoesHTML() {
 
-    // Solicita o nome completo do usuário
-    let nomeCompleto = prompt("Olá, qual o seu nome completo?");
+    //Nome do usuário
+    let nomeCompleto = prompt("Para começo, qual seu nome?");
 
-    // Solicita a idade em anos do usuário
-    let idadeAnos = prompt("Qual a sua idade?");
+    //Tempo de aprendizado
+    let tempoAprendizado = prompt("Há quanto tempo você começou a aprender HTML?");
 
-    // Solicita um hobbie do usuário
-    let hobbie = prompt("Cite algo que você gosta de fazer.")
-
-    // Exibe um comentário
-    alert("Olá, " + nomeCompleto + "! Você tem " + idadeAnos + " anos." + " Que bom que você gosta de " + hobbie + ".");
 }
