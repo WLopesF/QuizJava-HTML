@@ -1,11 +1,30 @@
 body {
-    text-align: center;
-    flex-direction: 0;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: darkslategray;
+    background-color: honeydew;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
 }
 
-.onclick {
-    border-radius: 2em;
+.quizstart {
+    display: flex;
+    margin: 29vh 30vw 29vh 30vw;
+    text-align: center;
+    flex-direction: column;
+    border: 3px solid darkmagenta;
+    border-radius: 1em;
+    padding: 0.5cm;
+}
+
+.questoesHTML {
+    border-color: black;
+    border-radius: 1em;
+}
+
+.credits {
+    text-align: center;
+    margin: 0vh 30vw 0vh 30vw;
+}
+
+.contact {
+    text-align: center;
+    margin: 0vh 30vw 0vh 30vw;
 }
